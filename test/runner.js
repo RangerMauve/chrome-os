@@ -7,9 +7,9 @@ var CHROME = process.env.CHROME || '/Applications/Google\\ Chrome\\ Canary.app/C
 switch (os.platform()) {
   case 'win32' :
     if (process.arch === 'x64') {
-      CHROME = process.env.CHROME || '\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"'
+      CHROME = process.env.CHROME || '"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"'
     } else {
-      CHROME = process.env.CHROME || '\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"'
+      CHROME = process.env.CHROME || '"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"'
     }
     break
   case 'darwin' :

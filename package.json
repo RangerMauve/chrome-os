@@ -1,6 +1,6 @@
 {
-  "name": "chrome-os",
-  "version": "2.0.0",
+  "name": "@rangermauve/chrome-os",
+  "version": "3.0.0",
   "description": "Use the Node `os` API in Chrome Apps",
   "main": "main.js",
   "browser": "chrome.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/No9/chrome-os.git"
+    "url": "https://github.com/RangerMauve/chrome-os.git"
   },
   "keywords": [
     "chrome"
@@ -17,9 +17,9 @@
   "author": "anton whalley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/No9/chrome-os/issues"
+    "url": "https://github.com/RangerMauve/chrome-os/issues"
   },
-  "homepage": "https://github.com/No9/chrome-os",
+  "homepage": "https://github.com/RangerMauve/chrome-os",
   "devDependencies": {
     "tape": "^4.0.0"
   }
